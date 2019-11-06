@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="48px" viewBox="0 0 180 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>KleverPay</title>
+    <desc>Created with Sketch.</desc>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-21.000000, -792.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="3738"></rect>
+            <text id="KleverPay" font-family="Roboto-Black, Roboto" font-size="38" font-weight="700" line-spacing="48" fill="#000000">
+                <tspan x="24" y="832">Klever</tspan>
+                <tspan x="143.232422" y="832.129883" font-family="Roboto-Regular, Roboto" font-weight="normal">Pay</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

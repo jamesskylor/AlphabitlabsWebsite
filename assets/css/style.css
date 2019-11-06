@@ -1,0 +1,407 @@
+@font-face {
+    font-family: Circularblackbold;
+    src: url(../css/fonts/Circular_black_bold.ttf);
+}
+@font-face {
+    font-family: Circularprobold;
+    src: url(../css/fonts/circular-pro-bold.ttf);
+}
+@font-face {
+    font-family: Circularpromedium;
+    src: url(../css/fonts/circular-pro-medium.ttf);
+}
+@font-face {
+    font-family: Circularprobook;
+    src: url(../css/fonts/circular-pro-book.ttf);
+}
+body{
+   font-size: 14px;
+   font-family: Circularprobook;
+   color: #000;
+   line-height: 24px;
+}
+/* Start Header Css*/
+.main-header{
+   background: url(../images/bg1.jpg) no-repeat center;
+   background-size: 100%;
+   background-position: top right;
+}
+.header-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#navigation {
+    float: right;
+}
+
+#navigation>ul {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 5px;    margin-left: auto !important;
+}
+.login a.nav-link {
+   border-left: 1px solid #ddd;
+}
+#navigation>ul>li {
+    float: left;
+}
+#navigation>ul>li>a {
+    padding: 0px 35px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 300;
+    float: left;
+    font-family: Circularprobook;
+    line-height: 17px;
+}
+#navigation:after, #navigation>ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+#navigation:after, #navigation>ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.navbar-nav button {
+   background-color: rgba(26,115,233,0.1);
+   border-radius: 24px;
+   color: #1A73E9;
+   font-size: 16px;
+   padding: 11px 40px;
+   border: none;
+   margin-top: -14px;
+}
+
+.sidenav {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ right: 0;
+ background-color: #111;
+ overflow-x: hidden;
+ transition: 0.5s;
+ padding-top: 60px;
+}
+
+.sidenav a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #818181;
+ display: block;
+ transition: 0.3s;
+}
+
+.sidenav a:hover {
+ color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+/* End Header Css*/
+:focus{
+   outline:none;
+}
+button:focus {
+   outline: none !important;
+}
+.hero-wrapper-outter {
+   padding: 80px 0px 0px;
+   width: 1050px;
+   margin:0 auto !important;
+   max-width: 100%;
+}
+.Typewriter__cursor {
+   color: rgba(26,115,233,0.4) !important;
+}
+.tagline {
+   font-family: Circularprobold;
+   font-size: 48px;
+   color:#000;
+}
+.blue-text.desktop {
+   color: #1A73E9;
+}
+ul.feature-list {
+   list-style: none;
+   padding: 30px 0px 30px;
+   margin-bottom: 0px;
+   line-height: 30px;
+   font-size: 14px;
+   color: #000;
+   float: left;
+   width: 100%;
+}
+li.feature-item {
+    float: left;
+    width: 100%;
+}
+.feature-item img {
+    margin-right: 5px;
+    float: left;
+    width: 20px;
+    margin-top: 5px;
+}
+.feature-item span.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+.feature-item p {
+    float: left;
+    width: 65%;
+    line-height: 23px;
+}
+.get-started input{
+   border: 1px solid rgba(0,0,0,0.12);
+   border-radius: 24px;
+   background-color: #FFFFFF;
+   padding: 12px 30px;
+   color: rgba(0,0,0,0.5);
+   font-size: 14px;
+   width: 273px;
+   font-family: Circularprobook;
+}
+.get-started button{
+   border:none;
+   border-radius: 24px;
+   background-color: #1A73E9;
+   color: #fff;
+   font-size: 16px;
+   padding: 10px 22px;
+   margin-left: 10px;
+   font-family: Circularprobook;
+   letter-spacing: 1px;
+}
+img.hero-image {
+   position: relative;
+   top: -34px;
+   left: 105px;
+}
+
+.features {
+   background: url(../images/bg2.jpg) no-repeat;
+   background-position: bottom right;
+}
+.heading-title {
+   font-size: 32px;
+   text-align: center;
+   color: #000;
+   font-family: Circularpromedium;
+   line-height: 44px;
+}
+hr.heading-title-hr {
+   width: 37px;
+   color: #1A73E9;
+   height: 2px;
+   background: #1A73E9;
+   border: none;
+}
+.feature-outter {
+   text-align: center;
+   margin-bottom: 60px;
+}
+.feature-outter img {
+   margin-bottom: 20px;
+}
+
+.feature-outter h1 {
+   font-size: 24px;
+   color: rgba(0,0,0,0.8);
+}.feature-outter hr {
+   width: 28px;
+   color: #1A73E9;
+   height: 2px;
+   background: #1A73E9;
+   border: none;
+}
+.feature-outter p {
+   font-size: 14px;
+   color: rgba(0,0,0,0.6);
+}
+.feature-outter-mg {
+   margin: 60px 0px;
+}
+.payment-way-list {
+   width: 700px;
+   margin: 30px auto !important;
+   max-width: 100%;
+}
+.payment-way-list ul {
+   list-style: none;
+   padding: 0px;
+   float: left;
+   width: 50%;
+   line-height: 30px;
+}.payment-way-list ul li {
+   margin-bottom: 15px;
+   font-size: 15px;
+   color: rgba(0,0,0,0.8);
+}.payment-way-list ul li img {
+   margin-right: 12px;
+}
+section.accept-payments {
+   background: url(../images/bg3.jpg);
+}
+.app-store h1.heading-title {
+   text-align: left;
+   margin-top: 17%;
+}
+.app-store hr.heading-title-hr {
+   float: left;
+}
+.app-store p {
+   float: left;
+   width: 100%;
+   font-size: 14px;
+   color: rgba(0,0,0,0.6);
+   margin-top: 20px;
+}
+.app-buttons {
+   float: left;
+   width: 100%;
+   margin: 30px 0px 70px;
+}
+.app-buttons a {
+   width: 50%;
+   float: left;
+}
+.app-buttons a img {
+   width: 87%;
+}
+.get-started {
+   float: left;
+   width: 100%;
+}
+.app-store .get-started input {
+   width: 246px;
+}
+.app-store .get-started button{font-size: 14px;}
+.app-store {
+   margin-top: 7%;
+}
+footer {
+   background: #000;
+   padding: 20px 0px;
+   color: #fff;
+}
+footer ul {
+   padding: 0px;
+   list-style: none;
+   margin-bottom: 0px;
+}
+footer ul li{
+   display:inline;
+}
+footer ul li a{
+   color: #fff;
+   font-size: 13px;
+   margin-right: 15px;
+}
+footer p {
+   margin-bottom: 0px;
+   font-size: 14px;
+   text-align: center;
+}
+footer ul li a:hover{text-decoration: none;}
+
+@media screen and (max-width: 1025px) {
+   img.hero-image {
+   position: relative;
+   top: -69px;
+   left: 0px;
+}
+img.app-store-img {
+   float: left;
+   width: 100%;    margin-top: 20px;
+}
+.tagline{
+   font-size: 33px;
+}
+.get-started input{
+           width: 185px;
+               padding: 7px 17px;
+   }
+   .get-started button{
+           font-size: 11px;
+   }
+   .app-buttons{
+           margin: 30px 0px 30px;
+   }
+   .app-store .get-started {
+   margin-bottom:30px;
+}
+.app-store .get-started input {
+   width: 182px;
+}
+}
+@media screen and (max-width: 840px) {
+   .hero-image {
+   float: left;
+   width: 100%;
+   position:unset !important;
+   margin-top: 20px;
+}
+}
+@media screen and (max-width: 812px) {
+   .hero-wrapper-outter{padding: 20px 0px 0px;}
+   
+.main-header{
+   background-size: cover;
+   background-position: top left;
+}
+}
+@media screen and (max-width: 600px) {
+   .tagline{
+       font-size: 40px;
+   }
+   .get-started input{
+       margin-bottom: 20px;
+   }
+   .heading-title{
+       font-size: 28px;
+   }
+   .heading-title br{
+       display:none;
+   }
+   .payment-way-list ul {
+   width: 100%;
+       margin-bottom: 0px;
+}
+.payment-way-list ul li img{
+       float: left;
+   width: 32px;
+}
+footer ul li a{
+   font-size: 12px;
+   margin-right: 3px;
+}
+footer ul{
+       margin-bottom: 20px;
+}
+.feature-item img {
+   margin-right: 8px;
+   float: left;
+   width: 18px;
+   margin-top: 11px;
+}
+}

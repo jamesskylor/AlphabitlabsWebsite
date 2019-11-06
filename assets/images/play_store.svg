@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="208px" height="72px" viewBox="0 0 208 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>play_store</title>
+    <desc>Created with Sketch.</desc>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-960.000000, -960.000000)">
+            <g id="Group-21" transform="translate(960.000000, 960.000000)">
+                <g id="Group-2-Copy-4">
+                    <path d="M4,0 L204,0 C206.209139,-4.05812251e-16 208,1.790861 208,4 L208,68 C208,70.209139 206.209139,72 204,72 L4,72 C1.790861,72 2.705415e-16,70.209139 0,68 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-2" fill="#000000"></path>
+                    <g id="google-play-(2)" transform="translate(16.000000, 23.000000)" fill-rule="nonzero">
+                        <polygon id="Shape" fill="#5CDADD" points="0.0280176211 0 0.0280176211 13.2631699 0.0280176211 27 14.2733392 13.2631699"></polygon>
+                        <polygon id="Shape" fill="#BDECC4" points="17.9771101 9.5210332 12.3264317 6.30001758 0.0280176211 0 14.2733392 13.2631699"></polygon>
+                        <polygon id="Shape" fill="#DC68A1" points="0.0280176211 27 0.0280176211 27 12.3264317 20.2263223 17.9771101 17.0052539 14.2733392 13.2631699"></polygon>
+                        <path d="M17.9771101,9.5210332 L14.2733392,13.2631172 L17.9771101,17.0052012 L23.7227313,13.6894219 C24.0551366,13.4999473 24.0551366,13.0736426 23.7227313,12.884168 L17.9771101,9.5210332 Z" id="Shape" fill="#FFCA96"></path>
+                    </g>
+                    <text id="Available-on-the" font-family="Circular-Book, Circular" font-size="12" font-weight="300" fill="#FFFFFF">
+                        <tspan x="57" y="29">AVAILABLE ON THE </tspan>
+                    </text>
+                    <text id="Google-Play" font-family="Circular-Medium, Circular" font-size="20" font-weight="400" fill="#FFFFFF">
+                        <tspan x="57" y="53">Google Play</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
